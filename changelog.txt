@@ -1,0 +1,139 @@
+-----priority-----
+
+
+-----to do-----
+-----new feature
+add tags
+add company registration number - check and verify if registered
+add favicon
+add user picture
+add review/comment feature
+add rating feature
+add forgot password/reset password feature
+add contact us, about us, help, privacy and terms page
+add email vendor feature
+add contact type preferred - whataspp, msg, call, email
+add delete/restore ad feature
+add report ad feature with auto block
+
+-----fix
+alert user if image file max upload size
+check for same area during save
+block closing adedit screen during saving
+block clicking on bookmark multiple times during saving bookmark (add or remove)
+refresh search criteria after adding new ad -  need to check logged in and after refresh
+slow
+IE compatibility mode is not working
+add loading bar when searching for ad in adlist
+fix drawer on mobile
+load all category, state and area during load to javascript
+back button history
+
+-----change
+remove ribbon
+registered icon in adlist
+f,t,i link on adlist
+ad ip address in ad
+add button on topbar hidden on iphone 4
+
+redo material.min.css
+admin page
+delete ad/block ad
+block user
+
+
+add transport, painting service category
+
+
+
+
+
+
+
+1.09
+new search layout in drawer
+fix sticky scroll
+added add new service in mobile view
+change usrbutton design in topbar
+fix repeat password in adedit
+remove add new services button in usr panel
+fix search box is less 1px during stick on IE and FF
+fix adview close button on mobile - because of admainstatus div (pointer-events: none;)
+add ssm/company name input in adedit
+change adview layout on mobile - vertical view
+add ssm/company name/reg logo input in adview
+change top bar header design
+check adlist reload on 1st time click - (fix:adword onblur)
+added add new service in usr panel
+
+1.08
+added doctype and fix
+load main.php in index.php
+main image fix in adview screen
+added loading for main image load
+IE/FF fix
+
+1.07
+new status animation - change admainstatus position
+remove repeat password for logged in users
+remove logo
+change main title
+change mysql codes to mysqli (sql injection)
+create new ad (without login) --> save come out 2 displaystatus
+filter single quote in texts
+fix double slash // on display
+change servicefinder db name to svchub
+
+1.06
+check registered email
+allow user to save/edit all area
+remove reviews and comments
+save loading
+fix check all days for edit
+change login register layout
+fix adview right table td width
+fix ad edit layout - area, jobs, pictures paddings
+fix replacing pictures - deleting image in folder and in db
+redirects user to login/register when clicking add to bookmark if not logged in
+fix capitalize word for title and name at view, usrpanel, top bar and list
+check service category on server not showing (table names lower upper case issue)
+
+1.05
+change top bar button colour
+add 'add new' icon in usr panel
+change hover and selected colour of drawer
+fix sticky scrolling
+update paging logic and looks
+fix bookmark to update on list and usrpanel when adding or removing
+
+1.04
+fix business days in adview
+added check password for edit ads
+disabled email changing for logged in users
+added bookmark feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------load time
+2. 42 requests 521KB - mdl.css min
+	- total load time: 9.40 secs
+	- DOM load time: 3.45 secs
+
+1. 42 requests 682KB - jquery.js and mdl.js min
+	- total load time: 11.05 secs
+	- DOM load time: 5.63 secs
+

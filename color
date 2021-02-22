@@ -1,0 +1,25 @@
+https://www.materialui.co/colors/teal
+
+//color:#00796B; --> add teal 700
+009688 --> teal
+B2DFDB --> light teal 100   (178,223,219)
+
+https://www.materialui.co/colors
+f44336 --> red
+
+
+gradient - https://cssgradient.io/
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background: rgb(98,200,246);
+  background: linear-gradient(180deg, rgba(98,200,246,1) 0%, rgba(188,252,228,1) 89%);
+
+
+
+
+
+
+
+
+
+tooltip
+  <span class="mdl-tooltip" for="langButton"><?=lang($_SESSION["currLang"],"Change Language","Tukar Bahasa")?></span>
